@@ -11,9 +11,9 @@ public Plugin myinfo =
     url = "https://attawaybaby.com/"
 }
 
-public void OnMapStart()
+public void OnPluginStart()
 {
-    CreateTimer(5.0, fixbot);
+    CreateTimer(10.0, fixbot);
 }
 
 public Action FixBot_Off(Handle timer)
